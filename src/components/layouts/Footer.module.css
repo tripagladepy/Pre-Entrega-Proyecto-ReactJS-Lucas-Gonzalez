@@ -52,3 +52,40 @@
     align-items: center;
   }
 }
+
+.companyInfo {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+}
+
+.companyTitle {
+  margin: 0 0 0.75rem;
+  font-family: var(--font-serif);
+  color: var(--clr-text);
+  font-size: 1.5rem;
+}
+
+.companyDescription {
+  margin: 0 auto;
+  max-width: 600px;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--clr-muted);
+}
+
+.teamSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.teamTitle {
+  margin: 0;
+  font-family: var(--font-serif);
+  color: var(--clr-text);
+  font-size: 1.2rem;
+}
